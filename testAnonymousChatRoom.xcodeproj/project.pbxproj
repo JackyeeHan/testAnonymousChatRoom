@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A25FC5A1FA783CAC4063C114 /* Pods_testAnonymousChatRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9600350DCC09CF831CF8EF81 /* Pods_testAnonymousChatRoom.framework */; };
+		E3223265285CF379009C90CD /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3223264285CF379009C90CD /* CommentTableViewCell.swift */; };
 		E3A73FC3285C881A003DC697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A73FC2285C881A003DC697 /* AppDelegate.swift */; };
 		E3A73FC5285C881A003DC697 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A73FC4285C881A003DC697 /* SceneDelegate.swift */; };
 		E3A73FC7285C881A003DC697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A73FC6285C881A003DC697 /* ViewController.swift */; };
 		E3A73FCA285C881A003DC697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A73FC8285C881A003DC697 /* Main.storyboard */; };
 		E3A73FCC285C881A003DC697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A73FCB285C881A003DC697 /* Assets.xcassets */; };
 		E3A73FCF285C881A003DC697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A73FCD285C881A003DC697 /* LaunchScreen.storyboard */; };
+		E3A73FD7285C8873003DC697 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3A73FD6285C8873003DC697 /* GoogleService-Info.plist */; };
+		E3A73FD9285CA846003DC697 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A73FD8285CA846003DC697 /* Tools.swift */; };
+		E3A73FDD285CB133003DC697 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A73FDC285CB133003DC697 /* Page2ViewController.swift */; };
+		E3A73FDF285CCB39003DC697 /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A73FDE285CCB39003DC697 /* Page3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63031205FB6074B05B85263A /* Pods-testAnonymousChatRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testAnonymousChatRoom.debug.xcconfig"; path = "Target Support Files/Pods-testAnonymousChatRoom/Pods-testAnonymousChatRoom.debug.xcconfig"; sourceTree = "<group>"; };
+		9600350DCC09CF831CF8EF81 /* Pods_testAnonymousChatRoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testAnonymousChatRoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3223264285CF379009C90CD /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
 		E3A73FBF285C881A003DC697 /* testAnonymousChatRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testAnonymousChatRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A73FC2285C881A003DC697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3A73FC4285C881A003DC697 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,11 @@
 		E3A73FCB285C881A003DC697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3A73FCE285C881A003DC697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3A73FD0285C881A003DC697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A73FD6285C8873003DC697 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E3A73FD8285CA846003DC697 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		E3A73FDC285CB133003DC697 /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		E3A73FDE285CCB39003DC697 /* Page3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
+		EA35FFD54DB9866D12D6FFF6 /* Pods-testAnonymousChatRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testAnonymousChatRoom.release.xcconfig"; path = "Target Support Files/Pods-testAnonymousChatRoom/Pods-testAnonymousChatRoom.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25FC5A1FA783CAC4063C114 /* Pods_testAnonymousChatRoom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		368C5218AFB7629ED7226023 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63031205FB6074B05B85263A /* Pods-testAnonymousChatRoom.debug.xcconfig */,
+				EA35FFD54DB9866D12D6FFF6 /* Pods-testAnonymousChatRoom.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E3A73FB6285C881A003DC697 = {
 			isa = PBXGroup;
 			children = (
+				E3A73FD8285CA846003DC697 /* Tools.swift */,
 				E3A73FC1285C881A003DC697 /* testAnonymousChatRoom */,
 				E3A73FC0285C881A003DC697 /* Products */,
+				368C5218AFB7629ED7226023 /* Pods */,
+				F4792CE044614779CDB9E917 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +86,24 @@
 				E3A73FC2285C881A003DC697 /* AppDelegate.swift */,
 				E3A73FC4285C881A003DC697 /* SceneDelegate.swift */,
 				E3A73FC6285C881A003DC697 /* ViewController.swift */,
+				E3A73FDC285CB133003DC697 /* Page2ViewController.swift */,
+				E3A73FDE285CCB39003DC697 /* Page3ViewController.swift */,
+				E3223264285CF379009C90CD /* CommentTableViewCell.swift */,
 				E3A73FC8285C881A003DC697 /* Main.storyboard */,
 				E3A73FCB285C881A003DC697 /* Assets.xcassets */,
 				E3A73FCD285C881A003DC697 /* LaunchScreen.storyboard */,
 				E3A73FD0285C881A003DC697 /* Info.plist */,
+				E3A73FD6285C8873003DC697 /* GoogleService-Info.plist */,
 			);
 			path = testAnonymousChatRoom;
+			sourceTree = "<group>";
+		};
+		F4792CE044614779CDB9E917 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9600350DCC09CF831CF8EF81 /* Pods_testAnonymousChatRoom.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3A73FD3285C881A003DC697 /* Build configuration list for PBXNativeTarget "testAnonymousChatRoom" */;
 			buildPhases = (
+				E09218381D4F208AA7AB7204 /* [CP] Check Pods Manifest.lock */,
 				E3A73FBB285C881A003DC697 /* Sources */,
 				E3A73FBC285C881A003DC697 /* Frameworks */,
 				E3A73FBD285C881A003DC697 /* Resources */,
+				52E94BC17E46514EEAD46341 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3A73FCF285C881A003DC697 /* LaunchScreen.storyboard in Resources */,
+				E3A73FD7285C8873003DC697 /* GoogleService-Info.plist in Resources */,
 				E3A73FCC285C881A003DC697 /* Assets.xcassets in Resources */,
 				E3A73FCA285C881A003DC697 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +175,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52E94BC17E46514EEAD46341 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testAnonymousChatRoom/Pods-testAnonymousChatRoom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testAnonymousChatRoom/Pods-testAnonymousChatRoom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testAnonymousChatRoom/Pods-testAnonymousChatRoom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E09218381D4F208AA7AB7204 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testAnonymousChatRoom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3A73FBB285C881A003DC697 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A73FDD285CB133003DC697 /* Page2ViewController.swift in Sources */,
+				E3A73FDF285CCB39003DC697 /* Page3ViewController.swift in Sources */,
 				E3A73FC7285C881A003DC697 /* ViewController.swift in Sources */,
 				E3A73FC3285C881A003DC697 /* AppDelegate.swift in Sources */,
+				E3223265285CF379009C90CD /* CommentTableViewCell.swift in Sources */,
 				E3A73FC5285C881A003DC697 /* SceneDelegate.swift in Sources */,
+				E3A73FD9285CA846003DC697 /* Tools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +370,7 @@
 		};
 		E3A73FD4285C881A003DC697 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63031205FB6074B05B85263A /* Pods-testAnonymousChatRoom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +399,7 @@
 		};
 		E3A73FD5285C881A003DC697 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA35FFD54DB9866D12D6FFF6 /* Pods-testAnonymousChatRoom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
